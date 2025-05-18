@@ -1,0 +1,55 @@
+.navigation-bar{
+    width:100%;
+    height:100%;
+    /* homePage applied 10px padding all-round except bottom already */
+    padding-bottom: 10px;
+
+    /* border:1px solid red; */
+}
+
+.navigation-bar *{
+    /* border:1px solid red; */
+}
+
+.navigation-bar ol{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-company-title{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.list-others{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-others *{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-company-title li p, .list-others li p{
+    width: auto;
+    font-size: large;
+}
+
+.list-company-title li p:hover, .list-others li p:hover{
+    cursor: pointer;
+    color:gray;
+}
