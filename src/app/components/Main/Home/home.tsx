@@ -1,6 +1,8 @@
 
 import NavigationBar from "../../Navigation/navigationBar"
 import Portfolio from "../Portfolio/portfolio"
+import Price from "../Price/price"
+import Contact from "../Contact/contact"
 import "./home.css"
 
 
@@ -18,11 +20,11 @@ const HomePage = () => {
       </section>
 
       <section className="services-section">
-        <h2>Package & Pricing</h2>
+        <Price />
       </section>
 
       <section className="contacts-section">
-        <h2>Contact Us!</h2>
+        <Contact />
       </section>
 
       <footer>Copyright</footer>
