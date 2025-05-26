@@ -1,0 +1,46 @@
+
+.home-container{
+    /* padding:10px; */
+    width:100%;
+    height:auto;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container section{
+    width:100%;
+    height:50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-section{
+    height:75vh !important;
+}
+
+.portfolio-section{
+    width:100%;
+    height:100%;
+}
+
+section{
+    /* border:1px solid red; */
+}
+
+footer{
+    width:100%;
+    height:10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border:1px solid red; */
+}

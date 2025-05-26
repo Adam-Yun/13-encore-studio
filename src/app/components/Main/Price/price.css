@@ -1,0 +1,33 @@
+.price-container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-lists{
+    width: 60%;
+    height:100%;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /* border:1px solid palegoldenrod; */
+}
+
+.price-list{
+    width:33%;
+    max-width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    padding:10px;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+    border:1px solid greenyellow;
+}
