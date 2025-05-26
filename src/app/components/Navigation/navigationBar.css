@@ -1,51 +1,38 @@
 .navigation-bar{
     width:100%;
-    height:100%;
-    /* homePage applied 10px padding all-round except bottom already */
-    padding-bottom: 10px;
-
-    /* border:1px solid red; */
+    height:10vh;
+    padding: 10px 0px;
 }
 
-.navigation-bar ol{
+.navigation-lists{
     width:100%;
     height:100%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display:flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.list-company-title{
-    width:50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-}
+/* .navigation-lists:hover> :not(:hover) .navigation-text{
+    cursor: pointer;
+    color:grey;
+} */
 
-.list-others{
-    width:50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+.navigation-list{
+    width:100%;
+    height:100%;
 
-.list-others *{
-    width:50%;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.list-company-title li p, .list-others li p{
-    width: auto;
-    font-size: large;
+.navigation-list a{
+    font-weight: normal;
+    font-size: 1.5vw;
 }
 
-.list-company-title li p:hover, .list-others li p:hover{
+.navigation-list a:hover{
+    color:grey;
     cursor: pointer;
-    color:gray;
 }

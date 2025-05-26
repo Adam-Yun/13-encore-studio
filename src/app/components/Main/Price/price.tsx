@@ -4,7 +4,7 @@ import "./price.css"
 const Price = () => {
 
   return ( 
-    <div className="price-container">
+    <div id="price-tag" className="price-container">
         <ol className="price-lists">
             <li className="price-list">
                 Package A

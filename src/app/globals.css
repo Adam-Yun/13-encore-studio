@@ -26,7 +26,7 @@ body {
 }
 
 *{
-  color:white;
+  color:whitesmoke;
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -35,4 +35,8 @@ body {
 body{
   width:100vw;  
   height:100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }

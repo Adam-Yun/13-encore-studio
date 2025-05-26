@@ -1,6 +1,6 @@
 
 .home-container{
-    padding:10px;
+    /* padding:10px; */
     width:100%;
     height:auto;
 }
@@ -21,12 +21,26 @@
     align-items: center;
 }
 
-.introduction-section h2{
-    font-size: 96px;
-    font-weight: bolder;
+.introduction-section{
+    height:75vh !important;
 }
 
 .portfolio-section{
     width:100%;
     height:100%;
+}
+
+section{
+    /* border:1px solid red; */
+}
+
+footer{
+    width:100%;
+    height:10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border:1px solid red; */
 }
