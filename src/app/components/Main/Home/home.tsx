@@ -5,6 +5,7 @@ import Price from "../Price/price"
 import Contact from "../Contact/contact"
 import Feedback from "../Feedback/feedback"
 import Introduction from "../Introduction/introduction"
+
 import "./home.css"
 
 
@@ -20,6 +21,7 @@ const HomePage = () => {
       <section className="portfolio-section">
         <Portfolio />
       </section>
+      
 {/* 
       <section className="services-section">
         <Price />
