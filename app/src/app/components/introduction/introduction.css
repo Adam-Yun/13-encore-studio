@@ -1,0 +1,52 @@
+
+
+.introduction-container{
+    position: relative;
+    width:100%;
+    height:300px;
+    border-radius: 2.5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid red; */
+}
+
+.introduction-title{
+    padding:10px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.introduction-bg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -2;
+
+    background-image: url('/Images/photostudio-2.jpg');
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+}
+
+.introduction-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Black with 40% opacity */
+  z-index: -1;
+}
+
+@media (min-width: 768px){
+    .introduction-container{
+        height:500px;
+    }
+
+    .introduction-title{
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 12rem;
+        font-weight: bolder;
+    }
+}
