@@ -1,0 +1,100 @@
+@keyframes slides {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.showcase-box{
+    overflow: hidden;
+    padding:60px 0;
+    white-space: nowrap;
+    border:1px solid blue;
+}
+
+.showcase-images{
+    /* margin-right: 10px; */
+    display: inline-flex;
+    border:1px solid orange;
+    animation: 5s slides infinite linear;
+}
+
+.showcase-image{
+    width: 300px;
+    height:100px;
+    margin:0 30px;
+    border:1px solid red;
+}
+
+
+
+/* .showcase-container{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border:1px solid red
+}
+
+.cards-track{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.card{
+    width:300px;
+    height:auto;
+    margin-right:10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border:1px solid red;
+    border-radius: 2.5px;
+}
+
+.card-image{
+    width:300px;
+    height:auto;
+    object-fit:cover;
+} */
+
+/* @keyframes scroll-left {
+  0% {
+    transform: translateX(100dvw);
+  }
+  100% {
+    transform: translateX(-100dvw);
+  }
+} */
+/* 
+@keyframes scroll-up {
+  from { transform: translateX(400dvh); }
+  to   { transform: translateX(-400dvh); }
+}
+
+.carousel-container{
+  display: flex;
+  animation: scroll linear infinite;
+}
+
+.card {
+  animation: scroll-up 8s linear infinite;
+}
+
+@keyframes scroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        } */
