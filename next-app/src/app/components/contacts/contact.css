@@ -1,0 +1,40 @@
+
+.contacts-box{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border:1px solid red; */
+}
+
+.contacts-description{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+}
+
+.contacts-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-box i{
+    /* width:max-content; */
+    padding:10px 15px;
+    font-size: 3rem;
+
+    border-radius: 5px;    
+    /* border:1px solid red; */
+}
+.contacts-box i:hover{
+    cursor: pointer;
+    color:gray;
+}
+
+.contacts-icons > *:not(:last-child){
+    margin-right: 20px;
+}

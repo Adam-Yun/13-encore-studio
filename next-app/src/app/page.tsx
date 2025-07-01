@@ -1,9 +1,9 @@
-import Image from "next/image";
 // Main Components
 import Navbar from "./components/navigations/navigation"
 import Introductions from "./components/introductions/introduction"
 import Showcases from "./components/showcases/showcase"
 import Prices from "./components/prices/price"
+import Contacts from "./components/contacts/contact"
 
 export default function Home() {
   return (
@@ -26,9 +26,14 @@ export default function Home() {
           <Prices />
         </section>
 
+        <section className="contacts-section">
+          <div id="contactsSection" className="anchor"></div>
+          <Contacts />
+        </section>
+
       </main>
       <footer>
-        <p>footer</p>
+        <p>© Copyright 2025 By Digital Adam</p>
       </footer>
     </div>
   );

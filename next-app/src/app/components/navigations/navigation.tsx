@@ -48,9 +48,16 @@ const Navigation = () => {
       </div>
 
         <ol className="mobile-nav-lists" style={{display : isClicked ? "block" : "none"}}>
+          
           <li className="mobile-nav-list">
             <a href="#showcasesSection" className="nav-text">
               Our Work
+            </a>
+          </li>
+
+                    <li className="mobile-nav-list">
+            <a href="#pricesSection" className="nav-text">
+              Pricing
             </a>
           </li>
 
@@ -60,11 +67,6 @@ const Navigation = () => {
             </a>
           </li>
 
-          <li className="mobile-nav-list">
-            <a href="#pricesSection" className="nav-text">
-              Pricing
-            </a>
-          </li>
         </ol>
     </nav>
   );

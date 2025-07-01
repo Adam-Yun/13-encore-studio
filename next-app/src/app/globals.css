@@ -63,17 +63,22 @@ section{
   /* border:1px solid red; */
 }
 
-.introductions-section, .showcases-section, .prices-section{
-  margin-bottom:50px;
+.introductions-section, .showcases-section, .prices-section, .contacts-section{
+  margin-bottom:100px;
 }
 
 footer{
   padding:10px;
-  border:1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
 }
 
 footer p{
-  border:1px solid red;
+  /* border:1px solid red; */
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 0.9rem;
 }
 
 @media (min-width: 768px){
