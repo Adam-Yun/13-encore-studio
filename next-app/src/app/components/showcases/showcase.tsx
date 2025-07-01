@@ -29,6 +29,10 @@ const Showcase = () => {
         <Image className="showcase-image" src={images[3]} width={800} height={600} alt="photoshoots" priority/>
         <Image className="showcase-image" src={images[4]} width={800} height={600} alt="photoshoots" priority/>
         <Image className="showcase-image" src={images[5]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[6]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[7]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[8]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[9]} width={800} height={600} alt="photoshoots" priority/>
       </div>
       <div className="showcase-images">
         <Image className="showcase-image" src={images[0]} width={800} height={600} alt="photoshoots" priority/>
@@ -37,6 +41,10 @@ const Showcase = () => {
         <Image className="showcase-image" src={images[3]} width={800} height={600} alt="photoshoots" priority/>
         <Image className="showcase-image" src={images[4]} width={800} height={600} alt="photoshoots" priority/>
         <Image className="showcase-image" src={images[5]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[6]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[7]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[8]} width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src={images[9]} width={800} height={600} alt="photoshoots" priority/>
       </div>
     </div>
   );

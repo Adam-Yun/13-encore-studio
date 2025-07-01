@@ -1,31 +1,37 @@
 @keyframes slides {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
+  from{
+      transform: translateX(0);
+  }
+  to{
+      transform: translateX(-100%);
+  }
 }
 
 .showcase-box{
-    overflow: hidden;
-    padding:60px 0;
-    white-space: nowrap;
-    border:1px solid blue;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border:1px solid blue; */
+
 }
 
 .showcase-images{
-    /* margin-right: 10px; */
-    display: inline-flex;
-    border:1px solid orange;
-    animation: 5s slides infinite linear;
+  width:2600px;
+  height:325px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+
+  overflow: hidden;
+  animation: 50s slides infinite linear;
+
+  /* border:1px solid orange; */
 }
 
 .showcase-image{
-    width: 300px;
-    height:100px;
-    margin:0 30px;
-    border:1px solid red;
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+
 }
 
 
