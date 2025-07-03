@@ -7,28 +7,28 @@ const Showcase = () => {
   return ( 
     <div className="showcase-box">
       <div className="showcase-images">
-        <Image className="showcase-image" src="/Images/sample_image_1.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_2.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_3.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_4.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_5.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_6.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_7.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_8.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_9.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_10.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_1.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_2.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_3.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_4.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_5.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_6.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_7.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_8.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_9.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_10.jpg" width={800} height={600} alt="photoshoots" priority/>
       </div>
       <div className="showcase-images">
-        <Image className="showcase-image" src="/Images/sample_image_1.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_2.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_3.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_4.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_5.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_6.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_7.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_8.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_9.jpg" width={800} height={600} alt="photoshoots" priority/>
-        <Image className="showcase-image" src="/Images/sample_image_10.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_1.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_2.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_3.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_4.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_5.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_6.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_7.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_8.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_9.jpg" width={800} height={600} alt="photoshoots" priority/>
+        <Image className="showcase-image" src="/images/sample_image_10.jpg" width={800} height={600} alt="photoshoots" priority/>
       </div>
     </div>
   );
