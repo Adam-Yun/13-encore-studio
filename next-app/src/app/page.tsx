@@ -2,6 +2,7 @@
 import Navbar from "./components/navigations/navigation"
 import Introductions from "./components/introductions/introduction"
 import Showcases from "./components/showcases/showcase"
+import ShowcasesReverse from "./components/showcases/showcaseReverse"
 import Prices from "./components/prices/price"
 import Contacts from "./components/contacts/contact"
 
@@ -19,6 +20,7 @@ export default function Home() {
         <section className="showcases-section">
           <div id="showcasesSection" className="anchor"></div>
           <Showcases />
+          <ShowcasesReverse />
         </section>
 
         <section className="prices-section">

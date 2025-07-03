@@ -1,9 +1,9 @@
-@keyframes slides {
+@keyframes slides-reverse {
   from{
-      transform: translateX(0);
+      transform: translateX(-100%);
   }
   to{
-      transform: translateX(-100%);
+      transform: translateX(0);
   }
 }
 
@@ -12,12 +12,12 @@
   white-space: nowrap;
 }
 
-.showcase-box:active .showcase-images{
+.showcase-box:active .showcase-images-reverse{
   cursor:pointer;
   animation-play-state: paused;
 }
 
-.showcase-images{
+.showcase-images-reverse{
   width:2600px;
   height:325px;
   display: inline-flex;
@@ -25,7 +25,7 @@
   align-items: center;
 
   overflow: hidden;
-  animation: 50s slides infinite linear;
+  animation: 50s slides-reverse infinite linear;
 }
 
 .showcase-image{
@@ -35,7 +35,7 @@
 }
 
 @media (min-width: 768px){
-  .showcase-box:hover .showcase-images{
+  .showcase-box:hover .showcase-images-reverse{
     cursor:pointer;
     animation-play-state: paused;
   }

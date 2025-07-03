@@ -74,12 +74,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items: start;
     }
 
     .price{
         width:300px;
-        height:400px;
+        min-height: 400px;
+        height:auto;
         margin-bottom: 0px;
         padding:10px;
 
@@ -90,6 +91,10 @@
 
         border-radius: 5px;
         border:0.5px solid #2a2a2a;
+    }
+
+    .prices > *:not(:last-child){
+        margin-right: 10px;
     }
 
     .price h3{
@@ -115,9 +120,28 @@
         justify-content: center;
         align-items: start;
 
+        /* scroll */
+        /* overflow: auto; */
+        /* scrollbar-width: thin;
+        scrollbar-color: #888 transparent; */
+
         font-size: 0.9rem;
         font-family: sans-serif;
     }
+
+    /* Scroll setting */
+    /* Chrome, Edge, Safari, Opera */
+    /* .price p::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    .price p::-webkit-scrollbar-track {
+        background: grey;
+    }
+    .price p::-webkit-scrollbar-thumb {
+        background-color: white;
+        border: none;
+    } */
 
     .price:hover{
         cursor: pointer;

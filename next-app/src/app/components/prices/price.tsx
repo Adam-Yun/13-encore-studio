@@ -19,7 +19,7 @@ const Prices = () => {
                     •	Color grading + one black-and-white conversion
                     <br></br>
                     <br></br>
-                    •	Online proofing gallery (view/download for 2 weeks)
+                    •	Public online gallery
                 </p>
             </li>
             <li className="price">
@@ -32,7 +32,7 @@ const Prices = () => {
                     <br></br><br></br>
                     •	Color grading + two stylized presets (e.g. filmic, moody)
                     <br></br><br></br>
-                    •	Online proofing gallery (4-week access) with direct download links
+                    •	Public online gallery
                     <br></br><br></br>
                     •	Behind-the-scenes “sneak peek” video clip (30 sec)
                 </p>
@@ -46,7 +46,7 @@ const Prices = () => {
                     <br></br><br></br>
                     •	Color grading + three advanced looks (cinematic, vintage, high-contrast)
                     <br></br><br></br>
-                    •	Private online gallery (6-week access) with client-downloadable ZIP
+                    •	Private online gallery
                     <br></br><br></br>
                     •	Behind-the-scenes highlight reel (1–2 min)
                 </p>

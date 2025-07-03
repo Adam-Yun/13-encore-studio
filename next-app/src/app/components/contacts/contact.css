@@ -12,29 +12,66 @@
 }
 
 .contacts-description{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
     font-family: "Bebas Neue", sans-serif;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    /* border:1px solid red; */
 }
 
 .contacts-icons{
+    width:100%;
+
     display: flex;
-    justify-content: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
 .contacts-box i{
-    /* width:max-content; */
-    padding:10px 15px;
-    font-size: 3rem;
+    padding:7px 12px;
+    font-size: 1.5rem;
 
     border-radius: 5px;    
-    /* border:1px solid red; */
+    transition: color 0.2s ease-in-out;
 }
-.contacts-box i:hover{
+
+
+.contacts-box i:active{
     cursor: pointer;
     color:gray;
 }
 
 .contacts-icons > *:not(:last-child){
-    margin-right: 20px;
+    /* margin-right: 20px; */
+}
+
+@media (min-width: 768px){
+
+    .contacts-description{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+}
+
+    .contacts-box i{
+        padding:10px 15px;
+        font-size: 3rem;
+    }
+
+    .contacts-box i:hover{
+        cursor: pointer;
+        color:gray;
+    }
 }
